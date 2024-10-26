@@ -1,8 +1,10 @@
+import 'dart:math';
+
 void main() {
   int intVar;
 
   // boolean :: dart doesn't provide direct method
-  bool boolVar = true;
+  bool boolVar = Random().nextBool();
   intVar = boolVar ? 1 : 0;
   print("Bool: $intVar");
 
