@@ -1,28 +1,25 @@
-mixin Swimmer {
-  void swim() {
-    print("Swimming in the pool.");
-  }
+mixin Run {
+  double? runSpeed;
 }
 
-mixin Runner {
-  void run() {
-    print("Running on the track.");
-  }
+mixin Walk {
+  double? walkSpeed;
 }
 
-class Person with Swimmer, Runner {
+class Person with Run, Walk {
   String name;
 
   Person(this.name);
 
-  void showSkills() {
-    print("Skills of $name:");
-    swim();
-    run();
+  showData() {
+    print("Name: ${this.name}");
+    print("Running speed: ${this.runSpeed ?? 0} m/s");
+    print("Walking speed: ${this.walkSpeed ?? 0} m/s ");
   }
 }
 
 void main() {
-  Person person = Person("Alex");
-  person.showSkills();
+  Person person = Person("ranvir");
+  person.walkSpeed = 45.78;
+  person.showData();
 }
