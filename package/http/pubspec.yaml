@@ -1,0 +1,8 @@
+name: news_app
+description: a project to fetch news using http package
+
+environment:
+  sdk: '^3.5.0'
+
+dependencies:
+  http: ^1.2.2
