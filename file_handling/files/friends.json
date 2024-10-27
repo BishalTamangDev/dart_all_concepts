@@ -1,0 +1,54 @@
+{
+    "friends": [
+        {
+            "id": 1,
+            "name": "Aarav Shrestha",
+            "contact": "+9779812345678"
+        },
+        {
+            "id": 2,
+            "name": "Sita Maharjan",
+            "contact": "+9779801234567"
+        },
+        {
+            "id": 3,
+            "name": "Ramesh Thapa",
+            "contact": "+9779823456789"
+        },
+        {
+            "id": 4,
+            "name": "Sarita Karki",
+            "contact": "+9779845123456"
+        },
+        {
+            "id": 5,
+            "name": "Bikash Rai",
+            "contact": "+9779856789123"
+        },
+        {
+            "id": 6,
+            "name": "Pratiksha Lama",
+            "contact": "+9779865432101"
+        },
+        {
+            "id": 7,
+            "name": "Rohan Khadka",
+            "contact": "+9779876543210"
+        },
+        {
+            "id": 8,
+            "name": "Nirajan Acharya",
+            "contact": "+9779811223344"
+        },
+        {
+            "id": 9,
+            "name": "Kriti Adhikari",
+            "contact": "+9779822334455"
+        },
+        {
+            "id": 10,
+            "name": "Sanjay Gurung",
+            "contact": "+9779843344556"
+        }
+    ]
+}
